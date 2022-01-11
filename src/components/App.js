@@ -1,11 +1,18 @@
 import React from 'react';
+import Header from './Header';
 import Nasa from './Nasa';
+import Earth from './Earth';
+
 
 function App() {
+
+ 
+
   return (
     <div>
-      <h1>hello.</h1>
+    <Header />
       <Nasa />
+      <Earth />
     </div>
   );
 }
